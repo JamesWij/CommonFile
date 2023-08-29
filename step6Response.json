@@ -1,0 +1,78 @@
+{
+  "resumeIndividualResponse": {
+    "statusCode": 200,
+    "body": {
+      "body": {
+        "data": {
+          "resumeResponse": {
+            "stepComplete": "4",
+            "category": "ETB",
+            "type": "INDIVIDUAL",
+            "phoneNumber": "081511676768",
+            "nik": "3171050406821093",
+            "maritalStatus": "M",
+            "facilityDetails": {
+              "facilityType": "conventional",
+              "tenure": "24",
+              "outstandingAmount": "200000000",
+              "installment": "2000000",
+              "maritalStatus": "S"
+            },
+            "companyDetails": {
+              "companyName": "PT Garuda Raya Semesta",
+              "dateOfEstablishment": "1995-07-03",
+              "annualSalesTurnover": "300000000",
+              "businessCategory": "04"
+            },
+            "contactDetails": {
+              "salutation": "Mrs. ",
+              "fullName": "Steven",
+              "emailAddress": "Steven@chow.lol",
+              "phoneNumber": "081511676768",
+              "spouseFullName": "Mermaidman",
+              "spouseEmailAddress": "Mermaidman@mail.com",
+              "spousePhoneNumber": "081232232323"
+            }
+          }
+        }
+      },
+      "header": {
+        "trxLog": "SME_DL_LOG-20230721110307417",
+        "responseCode": "OK",
+        "responseMessage": "Success resume"
+      }
+    }
+  },
+  "resumeResponseStep6Corporate": {
+    "statusCode": 200,
+    "body": {
+      "body": {
+        "data": {
+          "resumeResponse": {
+            "stepComplete": 5,
+            "type": "CORPORATE",
+            "facilityDetails": {
+              "businessType": "PT",
+              "facilityType": "Sharia",
+              "tenure": "24",
+              "outstandingAmount": "200000000",
+              "installment": "2000000",
+              "maritalStatus": "S"
+            },
+            "companyDetails": {
+              "companyName": "PT Garuda Raya Semesta",
+              "dateOfEstablishment": "1995-07-03",
+              "annualSalesTurnover": "300000000",
+              "businessCategory": "04"
+            }
+          }
+        }
+      },
+      "header": {
+        "trxLog": "SME_DL_LOG-20230721110307417",
+        "responseCode": "OK",
+        "responseMessage": "Success resume"
+      }
+    }
+  }
+}
